@@ -1,0 +1,16 @@
+{
+    'name': 'Look Navy',
+    'version': '1.0',
+        'sequence': 1,
+    'category': 'Web',
+    'summary': 'Look and feel Odoo v9 Navy',
+    'description':"Look and feel Odoo v9 Navy",
+    'author': 'Manexware S.A.',
+    'website': 'http://www.manexware.com',
+    'depends': ['web',
+                ],
+    'data': ['views/webclient_look_templates.xml'],
+    'installable': True,
+    'auto_install': False,
+    'application': False,
+}
